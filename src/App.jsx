@@ -5,8 +5,12 @@
 
 import { Alert } from './Alert';
 
-function App() {
-  return <Alert />;
+export default function App() {
+  return (
+    <div className="App">
+      <Alert type="information" heading="Success">
+        Everythin is really good!
+      </Alert>
+    </div>
+  );
 }
-
-export default App;
